@@ -6,7 +6,7 @@
 /*   By: ekulyyev <ekulyyev@student.42.us.org>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/02/27 12:39:33 by ekulyyev          #+#    #+#             */
-/*   Updated: 2018/03/09 16:35:52 by ekulyyev         ###   ########.fr       */
+/*   Updated: 2018/03/09 16:36:54 by ekulyyev         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ int		ft_formatparser(char *format, va_list argval, char **s,
 
 	i = 0;
 	argnums = 0;
-	*s = ft_strnew(8000);
+	*s = ft_strnew(8999);
 	while (*format != '\0')
 	{
 		if (*format != '%' && *format != '\0')
