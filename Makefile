@@ -6,7 +6,7 @@
 #*   By: ekulyyev <ekulyyev@student.42.us.org>      +#+  +:+       +#+        *#
 #*                                                +#+#+#+#+#+   +#+           *#
 #*   Created: 2018/03/02 13:37:10 by ekulyyev          #+#    #+#             *#
-#*   Updated: 2018/03/02 17:55:18 by ekulyyev         ###   ########.fr       *#
+#*   Updated: 2018/03/17 11:48:11 by                  ###   ########.fr       *#
 #*                                                                            *#
 #* ************************************************************************** *#
 
@@ -80,8 +80,7 @@ fclean: clean
 	@make fclean -C $(LFTDIR)
 	@rm -f $(NAME)
 
-re:
-	@$(MAKE) all
+re: fclean all
 
 norm:
 	@echo $(RED)
